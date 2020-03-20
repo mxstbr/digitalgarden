@@ -20,6 +20,7 @@ export default props => {
         "&:hover": {
           textDecoration: "underline",
         },
+        ...(props.sx || {}),
       }}
     />
   )
