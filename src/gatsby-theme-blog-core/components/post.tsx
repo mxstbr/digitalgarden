@@ -24,13 +24,13 @@ export default props => {
             h2: props => <Heading as="h2" fontSize={4} {...props} />,
             h3: props => <Heading as="h3" fontSize={3} {...props} />,
             wrapper: props => (
-              <Flex flexDirection="column" gap={4} {...props} />
+              <Flex flexDirection="column" gap={5} {...props} />
             ),
             ul: props => (
-              <Flex flexDirection="column" gap={1} as="ul" {...props} />
+              <Flex flexDirection="column" gap={2} as="ul" {...props} />
             ),
             ol: props => (
-              <Flex flexDirection="column" gap={1} as="ol" {...props} />
+              <Flex flexDirection="column" gap={2} as="ol" {...props} />
             ),
           }}
         >

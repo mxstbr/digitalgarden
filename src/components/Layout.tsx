@@ -8,7 +8,7 @@ import Container from "./Container"
 export default ({ children }) => (
   <React.Fragment>
     <Navbar />
-    <Container sx={{ paddingY: 7 }}>{children}</Container>
+    <Container sx={{ paddingTop: 7, paddingBottom: 10 }}>{children}</Container>
     <Footer />
   </React.Fragment>
 )
